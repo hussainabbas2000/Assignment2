@@ -1,7 +1,10 @@
 Feature: feature to test login
 
-  Scenario: Check login success with valid credentials
-    Given user is on login page
-    When user enters username and password
-    And clicks on login button
-    Then user is navigated to the homepage
+  Scenario Outline: Check login success with valid credentials
+    Given I have a user with <email> and <password>
+    When I enter login credentials
+    Then user dashboard is displayed
+
+    Examples: 
+      | email             | password |
+      | AffanMalik@gmail.com | ST123    |
