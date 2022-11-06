@@ -13,3 +13,10 @@ Meeting 2:
   - Research for Task 3
   - Work Division between members
   - Review of Task 2
+
+
+Meeting 3:
+  - Reasearch for Task 4
+  - Setting up a basic workflow for task 4
+  - Completing a draft for Task 4
+  - 
