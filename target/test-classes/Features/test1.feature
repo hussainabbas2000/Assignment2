@@ -7,4 +7,4 @@ Feature: feature to test login
 
     Examples: 
       | email             | password |
-      | AffanMalik@gmail.com | ST123    |
+      | hussainabbas@gmail.com | ST123    |
