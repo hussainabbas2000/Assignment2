@@ -19,4 +19,3 @@ Meeting 3:
   - Reasearch for Task 4
   - Setting up a basic workflow for task 4
   - Completing a draft for Task 4
-  - 
