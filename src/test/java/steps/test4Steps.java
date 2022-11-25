@@ -33,16 +33,19 @@ public class test4Steps {
 
 	@And("I enter new product information")
 	public void i_enter_new_product_information() {
-	    
+	    driver.findElement(By.xpath("input field")).sendKeys("XYZ");
 	}
 
 	@Then("the product is registered")
 	public void the_product_is_registered() {
-	   
+	    driver.findElement(By.xpath("button")).sendKeys(Keys.ENTER);
+
 	}
 
 	@And("it is displayed on the storefront")
 	public void it_is_displayed_on_the_storefront() {
-	   
+	   driver.getPageSource().contains("XYZ");
+	   driver.close();
+	   driver.quit();
 	}
 }
